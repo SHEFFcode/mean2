@@ -31,3 +31,8 @@ testem.log
 #System Files
 .DS_Store
 Thumbs.db
+<<<<<<< HEAD
+=======
+
+.editorconfig
+>>>>>>> 789edd02cafd0edcc56bdad33439fade63f31b3a
