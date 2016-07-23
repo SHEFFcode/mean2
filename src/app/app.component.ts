@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
+import { OtherComponent } from "./other/other.component";
+import {AnotherComponent} from "./other/another.component";
+import {DatabindingComponent} from "./databinding/databinding.component";
 
 @Component({
   moduleId: module.id,
   selector: 'app-root',
   templateUrl: 'app.component.html',
-  styleUrls: ['app.component.css']
+  styleUrls: ['app.component.css'],
+  directives: [OtherComponent, AnotherComponent, DatabindingComponent]
 })
 export class AppComponent {
   title = 'app works!';
