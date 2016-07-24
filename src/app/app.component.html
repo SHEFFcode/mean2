@@ -9,3 +9,6 @@
   </div>
 </app-another>
 <app-databinding></app-databinding>
+<h2>Lifecycle Component</h2>
+<app-lifecycle *ngIf="!delete"></app-lifecycle>
+<button (click)="delete= true">Click to delete</button>
