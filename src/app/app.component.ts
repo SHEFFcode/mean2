@@ -14,4 +14,6 @@ import {LifecycleComponent} from "./lifecycle.component";
 export class AppComponent {
   title = 'app works!';
   delete = false;
+  test = 'string value';
+  boundValue = 1000;
 }

@@ -10,5 +10,9 @@
 </app-another>
 <app-databinding></app-databinding>
 <h2>Lifecycle Component</h2>
-<app-lifecycle *ngIf="!delete"></app-lifecycle>
-<button (click)="delete= true">Click to delete</button>
+<app-lifecycle *ngIf="!delete" [bindable]="boundValue">
+  <p>{{test}}</p>
+</app-lifecycle>
+<button (click)="delete = true">Click to delete</button>
+<button (click)="test = 'Changed Value'">Click to change</button>
+<button (click)="boundValue = 2000">Click to content</button>
